@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Employee Information</title>
+    </head>
+
+</body>
+    <h1><b> Employee Information</b></h1>
+
+<form id="employeeInfo">
+   <!--Adds the inputs and lables -->
+    <label><b>Name:</b></label>
+    <input id ="name" type="text" name="name"><br><br>
+
+
+    <label<b>Job Title:</b></label>
+    <input id ="title" type="text" name="title"><br><br>
+
+
+    <label><b>Hire Date:</b></label>
+    <input id="hiredate" type="date" name="hiredate"><br><br>
+
+
+    <input type="button" value = "Submit" id= "submit" onclick="                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         click()">
+
+</form>
+
+<!--Makes table for the data that is gotten from the user-->
+    <table id="Table" class="sortable">
+        <thead>
+            <tr>
+            <th data-sort="name">Name</th>
+            <th data-sort="title">Job Title</th>
+            <th data-sort="hiredate">Hire Date</th>
+            <th data-sort="remove">Remove</th>
+          </tr>
+        </thead>
+        <thebody>
+        
+<!-- Javascript-->
+<script src="../jquery-3.6.0.js"></script>
+<script src="EmployeeInfoSCRIPT.js"></script>
+
+</body>
+ </html>
